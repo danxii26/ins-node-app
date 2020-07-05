@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="./post-new.css">
+    <title>New post</title>
+</head>
+<body>
+<div class="container">
+	<div class="row">	    
+	    <div class="col-md-8 col-md-offset-2">	        
+    		<h1>Create post</h1>    		
+    		<form action="/posts" method="POST">
+    		    <div class="form-group">
+    		        <textarea rows="5" class="form-control" name="description" placeholder="What's on your mind, Sir?" ></textarea>
+                </div>
+                <label for="myfile">Photo/Video:</label>
+                <input type="file" id="myfile" name="myfile"> 
+                <br>
+    		    <div class="form-group">
+                    <a href="/">
+                        <button type="submit" class="btn btn-primary">
+                            Create
+                        </button>
+                    </a>
+                    <a href="/">
+                        <button class="btn btn-default">
+                            Cancel
+                        </button>
+                    </a>
+                </div>  		    
+    		</form>
+		</div>		
+	</div>
+</div>
+</body>
+</html>

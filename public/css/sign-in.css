@@ -1,0 +1,31 @@
+.header {
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  margin-top: 8em;
+}
+form {
+  width: 30%;
+  margin: auto;
+  margin-top: 1em;
+}
+input[type = text], input[type = password], input[type = email] {
+  padding: 16px;
+  margin: 0 0 10px 0;
+  display: inline-block;
+  border: none;
+  background-color: #f1f1f1;
+  font-size: 12.5px;
+}
+button {
+  width: 100%;
+}
+small {
+  text-align: center;
+}
+small > a {
+  font-size: 14px;
+}
+#error-password, #error-email {
+  color: red;
+  margin: 0em;
+}

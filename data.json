@@ -1,0 +1,140 @@
+[
+    {
+        "id": 0,
+        "information": {
+            "email": "dan.samihust@gmail.com",
+            "username": "namdan",
+            "password": "12"
+        },
+        "posts": [
+            {
+                "content": "post1"
+            },
+            {
+                "content": "post2"
+            },
+            {
+                "content": "post3"
+            }
+        ],
+        "following": [],
+        "follower": [],
+        "createAt": "6/29/2020, 2:14:42 PM"
+    },
+    {
+        "id": 1,
+        "information": {
+            "email": "dan.nn173490@sis.hust.edu.vn",
+            "username": "namdanguyen",
+            "password": "123"
+        },
+        "posts": [
+            {
+                "content": "post1"
+            },
+            {
+                "content": "post2"
+            },
+            {
+                "content": "post3"
+            }
+        ],
+        "following": [],
+        "follower": [],
+        "createAt": "6/29/2020, 7:52:35 PM"
+    },
+    {
+        "id": 2,
+        "information": {
+            "email": "nguyennamdanbk2610@gmail.com",
+            "username": "nguyen",
+            "password": "34"
+        },
+        "posts": [
+            {
+                "content": "post1"
+            },
+            {
+                "content": "post2"
+            },
+            {
+                "content": "post3"
+            }
+        ],
+        "following": [],
+        "follower": [],
+        "createAt": "6/29/2020, 8:19:59 PM"
+    },
+    {
+        "id": 3,
+        "information": {
+            "email": "dan.nn173490@sis.hust.edu.vn",
+            "username": "d",
+            "password": "1"
+        },
+        "posts": [],
+        "following": [],
+        "follower": [],
+        "createAt": "6/29/2020, 8:27:41 PM"
+    },
+    {
+        "id": 4,
+        "information": {
+            "email": "nguyennamdanbk2610@gmail.com",
+            "username": "dan",
+            "password": "d"
+        },
+        "posts": [],
+        "following": [],
+        "follower": [],
+        "createAt": "6/29/2020, 8:44:01 PM"
+    },
+    {
+        "id": 5,
+        "information": {
+            "email": "beconlonton1@hotmail.com",
+            "username": "dung",
+            "password": "99"
+        },
+        "posts": [],
+        "following": [],
+        "follower": [],
+        "createAt": "6/30/2020, 9:57:12 AM"
+    },
+    {
+        "id": 6,
+        "information": {
+            "email": "",
+            "username": "",
+            "password": ""
+        },
+        "posts": [],
+        "following": [],
+        "follower": [],
+        "createAt": "7/5/2020, 4:51:06 PM"
+    },
+    {
+        "id": 7,
+        "information": {
+            "email": "",
+            "username": "",
+            "password": ""
+        },
+        "posts": [],
+        "following": [],
+        "follower": [],
+        "createAt": "7/5/2020, 4:51:10 PM"
+    },
+    {
+        "id": 8,
+        "information": {
+            "email": "dan.samihust1@gmail.com",
+            "username": "dan",
+            "password": "123456"
+        },
+        "posts": [],
+        "following": [],
+        "follower": [],
+        "createAt": "7/5/2020, 5:12:28 PM"
+    }
+]
