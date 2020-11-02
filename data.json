@@ -8,13 +8,34 @@
         },
         "posts": [
             {
-                "content": "post1"
+                "content": "post1",
+                "like": 2,
+                "comment": [
+                    {
+                        "username": "namdanguyen",
+                        "content": "dep trai do may"
+                    }
+                ]
             },
             {
-                "content": "post2"
+                "content": "post2",
+                "like": 2,
+                "comment": [
+                    {
+                        "username": "namdanguyen",
+                        "content": "dep trai do may"
+                    }
+                ]
             },
             {
-                "content": "post3"
+                "content": "post3",
+                "like": 2,
+                "comment": [
+                    {
+                        "username": "namdanguyen",
+                        "content": "dep trai do may"
+                    }
+                ]
             }
         ],
         "following": [],

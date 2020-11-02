@@ -91,22 +91,27 @@ server.post('/sign-in', (req, res) => {
                 message: "email does not exist"
             });
         }
-        // users.forEach(user => {
-        //     if (user.information.email == req.body.email) {
-        //         if (user.information.password == req.body.password) {
-        //             res.status(200).json(user);
-        //         }
-        //         else {
-        //             res.status(200).json({
-        //                 message: "password incorrect"
-        //             });
-        //         }
-        //     }
-        // });
-        // res.status(500).json({
-        //     message: "email"
-        // });
     })
+});
+// /users/${userId}/${post.content}/comment
+server.post('/users/:userId/:postContent/comment', (req, res) => {
+    try {
+        const { userId, postContent } = req.params;
+        console.log(req.body)
+        fs.readFile('./data.json', (err, data) => {
+            if (err) {
+                res.status(500).send('Server err')
+            }
+            const users = JSON.parse(data);
+            users.forEach(user => {
+                if (user.id == userId) {
+                    res.status(200).json(user);
+                }
+            });
+        })
+    } catch (error) {
+        res.status(error.status || 500).end(error.message || 'server error');
+    }
 });
 
 server.get('/users/:userId', (req, res) => {
